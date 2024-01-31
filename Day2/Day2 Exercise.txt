@@ -1,0 +1,8 @@
+Day2 Exercise
+
+1. Create a Employee table with id, name, age columns were none of the column should allow NULL values
+2. Add a new column say Salary to the table
+3. Rename the table to tbl_Employee
+4. Insert 10 rows into the table
+5. Create a Temp table by inserting the value from this table
+6. try to generate the scripts for both the tables created.
