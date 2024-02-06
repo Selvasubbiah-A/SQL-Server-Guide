@@ -21,7 +21,7 @@ ALTER DATABASE 'Old_name' MODIFY NAME = 'New_name';
 --or
 
 USE master;
-EXEC sp_rename 'Old_name', 'New_name';
+EXEC sp_rename 'Old_name', 'New_name', 'DATABASE';
 
 --DELETE a Database
 
