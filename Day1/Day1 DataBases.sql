@@ -49,7 +49,7 @@ FROM information_schema.schemata;
 
 --Alter Schema Name
 
-ALTER SCHEMA 'New_Schema_name' TRANSFER 'Old_Schema_name';
+ALTER SCHEMA 'New_Schema_name' TRANSFER 'Old_Schema_name.TableName';
 
 --DELETE a Schema 
 
