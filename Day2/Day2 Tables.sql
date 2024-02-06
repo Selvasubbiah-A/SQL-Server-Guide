@@ -56,7 +56,7 @@ CREATE TABLE ##Test
 
 --Creating a Global Temp Table from existing table using Select into
 
-SELECT * INTO '#GlobalTempTable' FROM 'OldTable'
+SELECT * INTO '##GlobalTempTable' FROM 'OldTable'
 
 --Retrive Structue of Global temp table using sp_help comment
 
