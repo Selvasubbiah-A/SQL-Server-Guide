@@ -27,11 +27,6 @@ EXEC sp_rename 'Old_name', 'New_name', 'DATABASE';
 
 DROP DATABASE 'Your_Database_Name';
 
---Backup Database
-
-BACKUP DATABASE 'Your_Database_Name'
-TO DISK = 'filepath';
-
 --To fetch the name of database in  a server 
 
 SELECT name FROM sys.databases;
